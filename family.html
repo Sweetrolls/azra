@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <nav style="background-color: #fb7185; padding: 1rem; text-align: center;">
+  <a href="index.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Home</a>
+  <a href="education.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Education</a>
+  <a href="experience.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Experience</a>
+  <a href="family.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Family</a>
+  <a href="interest.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Interest</a>
+</nav>
+
+  <meta charset="UTF-8">
+  <title>Family & Relationships</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #ffffff;
+    }
+
+    nav {
+      background-color: #fb7185;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2d3748;
+    }
+
+    .divider {
+      width: 100px;
+      height: 5px;
+      background-color: #fb7185;
+      margin: 0.5rem auto 0;
+      border-radius: 9999px;
+    }
+
+    .content-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 768px) {
+      .content-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .card {
+      background-color: #fff1f2;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      color: #1f2937;
+      display: flex;
+      align-items: center;
+    }
+
+    .card-title .icon {
+      color: #f43f5e;
+      margin-right: 0.75rem;
+      font-size: 1.5rem;
+    }
+
+    .highlight-box, .info-box {
+      background-color: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(8px);
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .highlight-box h4,
+    .info-box h4 {
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+
+    .img-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .img-container img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .quote {
+      text-align: center;
+      margin-top: 3rem;
+      font-style: italic;
+      color: #4b5563;
+    }
+
+    .quote .author {
+      margin-top: 0.5rem;
+      font-style: normal;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="family">
+    <div class="container">
+      <div class="section-header">
+        <h2>Family & Relationships</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="content-grid">
+           <!-- Family Card -->
+        <div class="card">
+          <h3 class="card-title"><span class="icon">👨‍👩‍👧</span>Family</h3>
+
+          <div class="highlight-box">
+            <div class="img-container">
+              <img src="family2.jpg" alt="Family Photo">
+            </div>
+            <p>Family is the cornerstone of my life. I'm blessed with loving parents and siblings who have always supported my dreams and aspirations. We enjoy spending time together during family gatherings and holidays.</p>
+          </div>
+
+          <div class="info-box">
+            <h4>Parents</h4>
+            <div class="img-container">
+              <img src="family.jpg" alt="Parents Photo">
+            </div>
+            <p>My parents have always encouraged me to pursue my interests and have been my biggest supporters throughout my educational journey.</p>
+          </div>
+        </div>
+
+        <!-- Relationships Card -->
+        <div class="card">
+          <h3 class="card-title"><span class="icon">❤️</span>Relationships</h3>
+
+          <div class="highlight-box">
+            <div class="img-container">
+              <img src="partner2.jpg" alt="Partner Highlight Photo">
+            </div>
+            <p>Building meaningful relationships is important to me. I value honesty, trust, and communication in all my relationships.</p>
+          </div>
+
+          <div class="info-box">
+            <h4>Partner</h4>
+            <div class="img-container">
+              <img src="partner.jpg" alt="Partner Photo">
+            </div>
+            <p>In a relationship, I believe in growing together, supporting each other's goals, and creating beautiful memories along the way.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote">
+        <p>"Family is not an important thing. It's everything."</p>
+        <p class="author">— Michael J. Fox</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <nav style="background-color: #fb7185; padding: 1rem; text-align: center;">
+  <a href="index.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Home</a>
+  <a href="education.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Education</a>
+  <a href="experience.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Experience</a>
+  <a href="family.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Family</a>
+  <a href="interest.html" style="margin: 0 15px; color: white; text-decoration: none; font-weight: bold;">Interest</a>
+</nav>
+
+  <meta charset="UTF-8">
+  <title>Education</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 1rem;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-title h2 {
+      font-size: 2.5rem;
+      color: #1f2937;
+      margin-bottom: 0.5rem;
+    }
+
+    .divider {
+      width: 6rem;
+      height: 5px;
+      background-color: #fb7185;
+      border-radius: 9999px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+
+    .education-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .edu-icon {
+      width: 4rem;
+      height: 4rem;
+      background-color: #ffe4e6;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #fb7185;
+    }
+
+    .edu-details h3 {
+      margin: 0;
+      font-size: 1.25rem;
+      color: #1f2937;
+    }
+
+    .edu-details p {
+      margin: 0.3rem 0;
+      color: #6b7280;
+    }
+
+    .courses {
+      background-color: #fff1f2;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .courses h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      color: #1f2937;
+      display: flex;
+      align-items: center;
+    }
+
+    .courses h4::before {
+      content: "📖";
+      margin-right: 0.5rem;
+      color: #fb7185;
+    }
+
+    .course-list {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.5rem;
+    }
+
+    .course-list li::before {
+      content: "";
+      display: inline-block;
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: #fda4af;
+      border-radius: 9999px;
+      margin-right: 0.5rem;
+    }
+
+    .quote-card {
+      text-align: center;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .quote {
+      font-style: italic;
+      color: #4b5563;
+    }
+
+    .author {
+      color: #6b7280;
+      margin-top: 0.5rem;
+    }
+
+    @media(min-width: 768px) {
+      .education-info {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<section id="education">
+  <div class="container">
+    <div class="section-title" style="text-align: center; margin-bottom: 2rem;">
+      <h2>🎓 Education</h2>
+      <div class="divider" style="width: 80px; height: 4px; background-color: #fb7185; margin: 0 auto;"></div>
+    </div>
+
+    <div class="card" style="background: #fff1f2; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);">
+       <div class="education-info" style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem;">
+        
+        
+        <div class="edu-photo" style="flex: 1; min-width: 250px; text-align: center;">
+          <img src="student.jpg" alt="Student Photo" style="width: 100%; max-width: 300px; height: auto; border-radius: 12px; border: 3px solid #ccc;">
+        </div>
+
+        <div class="edu-details" style="flex: 2; min-width: 280px;">
+          <h3>Diploma in Information Management</h3>
+          <p style="color:#fb7185; font-weight: bold;">UiTM Rembau, Negeri Sembilan</p>
+          <p>College of Computing, Informatics and Mathematics</p>
+
+          <div class="courses" style="margin-top: 1rem;">
+            <h4 style="margin-bottom: 0.5rem;">Key Courses</h4>
+            <ul class="course-list" style="padding-left: 1.2rem; line-height: 1.6;">
+              <li>Information Organization</li>
+              <li>Database Management</li>
+              <li>Digital Archiving</li>
+              <li>Information Systems</li>
+              <li>Knowledge Management</li>
+              <li>Information Literacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-card" style="margin-top: 2rem; background-color: #fff; padding: 1.5rem; border-left: 6px solid #fb7185; border-radius: 8px;">
+      <p class="quote" style="font-style: italic; color: #555;">"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."</p>
+      <p class="author" style="text-align: right; font-weight: bold; color: #333;">— Malcolm X</p>
+    </div>
+  </div>
+</section>
